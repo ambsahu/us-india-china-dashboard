@@ -1,0 +1,187 @@
+{
+  "sources": [
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "url": "https://feeds.content.dowjones.io/public/rss/RSSUSnews",
+      "category": "news",
+      "region": "us",
+      "country": "🇺🇸",
+      "active": true
+    },
+    {
+      "id": "scmp",
+      "name": "South China Morning Post",
+      "url": "https://www.scmp.com/rss",
+      "category": "news",
+      "region": "china",
+      "country": "🇨🇳",
+      "active": true
+    },
+    {
+      "id": "ndtv",
+      "name": "NDTV",
+      "url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+      "category": "news",
+      "region": "india",
+      "country": "🇮🇳",
+      "active": true
+    },
+    {
+      "id": "nikkei",
+      "name": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/rss/feed/nar",
+      "category": "news",
+      "region": "multilateral",
+      "country": "🇯🇵",
+      "active": true
+    },
+    {
+      "id": "foreignaffairs",
+      "name": "Foreign Affairs",
+      "url": "https://www.foreignaffairs.com/rss.xml",
+      "category": "opinion",
+      "region": "us",
+      "country": "🇺🇸",
+      "active": true
+    },
+    {
+      "id": "nationalinterest",
+      "name": "National Interest",
+      "url": "https://nationalinterest.org/feed",
+      "category": "opinion",
+      "region": "us",
+      "country": "🇺🇸",
+      "active": true
+    },
+    {
+      "id": "xinhua",
+      "name": "Xinhua News Agency",
+      "url": "http://www.xinhuanet.com/english/rss/index.htm",
+      "category": "news",
+      "region": "china",
+      "country": "🇨🇳",
+      "active": true
+    },
+    {
+      "id": "cgtn",
+      "name": "CGTN",
+      "url": "https://www.cgtn.com/subscribe/rss.html",
+      "category": "news",
+      "region": "china",
+      "country": "🇨🇳",
+      "active": true
+    },
+    {
+      "id": "globaltimes",
+      "name": "Global Times",
+      "url": "https://www.globaltimes.cn/rss/",
+      "category": "news",
+      "region": "china",
+      "country": "🇨🇳",
+      "active": true
+    },
+    {
+      "id": "fmprc",
+      "name": "FMPRC (China Foreign Ministry)",
+      "url": "https://www.fmprc.gov.cn/eng/xw/",
+      "category": "official",
+      "region": "china",
+      "country": "🇨🇳",
+      "active": true,
+      "note": "Requires web scraping - briefing schedule available"
+    },
+    {
+      "id": "mea",
+      "name": "MEA (India Foreign Ministry)",
+      "url": "https://www.mea.gov.in/press-releases.htm",
+      "category": "official",
+      "region": "india",
+      "country": "🇮🇳",
+      "active": true,
+      "note": "Requires web scraping - press releases"
+    },
+    {
+      "id": "whitehouse",
+      "name": "White House",
+      "url": "https://www.whitehouse.gov/briefings-statements/",
+      "category": "official",
+      "region": "us",
+      "country": "🇺🇸",
+      "active": true,
+      "note": "Requires web scraping - press briefings"
+    },
+    {
+      "id": "dod",
+      "name": "Department of Defense",
+      "url": "https://www.defense.gov/News/Releases/",
+      "category": "official",
+      "region": "us",
+      "country": "🇺🇸",
+      "active": true,
+      "note": "Requires web scraping - press releases"
+    },
+    {
+      "id": "csis",
+      "name": "CSIS",
+      "url": "https://www.csis.org/",
+      "category": "analysis",
+      "region": "us",
+      "country": "🇺🇸",
+      "active": true,
+      "note": "Requires subscription for RSS - monitor via website"
+    },
+    {
+      "id": "carnegie",
+      "name": "Carnegie Endowment",
+      "url": "https://carnegieendowment.org/",
+      "category": "analysis",
+      "region": "us",
+      "country": "🇺🇸",
+      "active": true,
+      "note": "Requires subscription for RSS - monitor via website"
+    },
+    {
+      "id": "orf",
+      "name": "Observer Research Foundation (ORF)",
+      "url": "https://www.orfonline.org/",
+      "category": "analysis",
+      "region": "india",
+      "country": "🇮🇳",
+      "active": true,
+      "note": "No official RSS - monitor via website/social media"
+    }
+  ],
+  "categories": [
+    {
+      "id": "military",
+      "name": "Military & Defense",
+      "icon": "🎖️",
+      "keywords": ["defense", "military", "armed forces", "weapons", "security", "strategic", "deterrence"]
+    },
+    {
+      "id": "economy",
+      "name": "Economy & Trade",
+      "icon": "💰",
+      "keywords": ["trade", "tariff", "economic", "commerce", "business", "investment", "bilateral trade"]
+    },
+    {
+      "id": "technology",
+      "name": "Technology & Semiconductors",
+      "icon": "🖥️",
+      "keywords": ["technology", "semiconductor", "chip", "tech", "AI", "artificial intelligence", "digital"]
+    },
+    {
+      "id": "energy",
+      "name": "Energy & Climate",
+      "icon": "⚡",
+      "keywords": ["energy", "oil", "gas", "renewable", "climate", "coal", "power"]
+    },
+    {
+      "id": "diplomacy",
+      "name": "Diplomacy & Multilateral",
+      "icon": "🤝",
+      "keywords": ["diplomacy", "quad", "brics", "multilateral", "forum", "summit", "dialogue"]
+    }
+  ]
+}
